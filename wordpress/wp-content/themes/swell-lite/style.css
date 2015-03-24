@@ -51,7 +51,6 @@
 .row, .clearfix { zoom: 1; }
 
 body {
-	background-color: #EEEEEE;
 	color: #333333;
 	color: rgba(0, 0, 0, .7);
 	font-size: 1.1em;
@@ -73,10 +72,15 @@ body {
 	width: 50px;
 	height: 50px;
 }
+.carousel {
+	
+}
 p {
 	padding: 18px 0px;
 	margin: 0px;
 	font-family: fantasy;
+	font-size: 18px;
+	line-height: 20px;
 	}
 p:empty {
 	display: none;
@@ -269,7 +273,7 @@ h4, h5, h6 {
 	font-weight: 600;
 	}
 h1 {
-	font-size: 2.4em;
+	font-size: 30px;
 	letter-spacing: -0.8px;
 	margin: 4px 0px 4px 0px;
 	padding: 4px 0px 4px 0px;
@@ -1144,7 +1148,7 @@ img.alignleft {
 .sidebar {
 	margin: 0px;
 	padding: 12px 0px 0px 24px;
-	background-color: white;
+	background-color: transparent;
 	}
 .sidebar.left {
 	padding: 12px 24px 0px 0px;
@@ -1619,6 +1623,7 @@ a.button:hover, .reply a:hover, #searchsubmit:hover, #prevLink a:hover, #nextLin
 	}
 .article .more-link {
 	margin: 24px 0px 0px 0px;
+	opacity: 0.9;
 	}
 	
 /************************************************
